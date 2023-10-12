@@ -73,7 +73,7 @@ const AuthForm = () => {
       .then((data) => {
         dispatch(authActions.login(data.idToken));
         console.log(data);
-        navigate('/mailBox');
+        navigate('/composeemail');
       })
       .catch((err) => {
         alert(err.message);

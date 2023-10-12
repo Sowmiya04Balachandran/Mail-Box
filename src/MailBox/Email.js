@@ -1,8 +1,10 @@
-const MailBox=()=>{
+
+
+const Email=()=>{
     return(
         <header>
             Welcome to MailBox!!!
         </header>
     )
 }
-export default MailBox;
+export default Email;
